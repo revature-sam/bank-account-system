@@ -15,4 +15,8 @@ public class MyConfiguration {
     public InterestCalculator interestCalculator() {
         return new InterestCalculator();
     }
+    @Bean
+    public Integer accountBalance() {
+        return 5000;
+    }
 }
